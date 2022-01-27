@@ -2,9 +2,7 @@ import os
 import yfinance as yf
 import datetime
 import time
-import matplotlib
 import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
 import matplotlib.dates as mdates
 import numpy as np
 import time
@@ -27,7 +25,6 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import pandas as pd
 from collections import Counter
-import pprint
 from sklearn import svm, neighbors
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
